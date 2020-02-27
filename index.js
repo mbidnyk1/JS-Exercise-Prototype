@@ -115,10 +115,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When this is used in the global scope its value is based on the window/console
+  2. When this is used before a function call the object before the dot is this being called implicitly 
+  3. When this is used in a constructor function it refers to the object that is created and returned by the function, like when we use the new keyword.
+  4. When the call or apply method is used this is explicitly defined
 */
 
 
